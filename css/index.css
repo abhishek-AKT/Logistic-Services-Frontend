@@ -1,0 +1,373 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+}
+
+.head-1 {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 41px;
+}
+
+.head-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 52px;
+    margin: 15px;
+}
+.head-1 .head-right i{
+    padding: 0 5px;
+    cursor: pointer;
+}
+.head-1 .head-right i:hover{
+    color: rgb(82, 82, 250);
+    cursor: pointer;
+
+}
+.logo {
+    display: flex;
+    align-items: center;
+    color: #ff4800;
+}
+
+.logo-h1 {
+    font-size: 2rem;
+}
+
+.nav-links ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links ul li a {
+    color: black;
+    padding: 25px;
+    text-decoration: none;
+}
+
+.nav-links ul a:hover {
+    color: white;
+    background-color: #ff4800;
+    cursor: pointer;
+}
+
+.section {
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(../image/bg/header.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-into-h2 {
+    color: #ff4800;
+}
+
+.text-align-center {
+    text-align: center;
+
+}
+.section-main{
+    padding: 6rem;
+}
+.nav-btn , .search-btn{
+    text-transform: capitalize;
+    background-color: #ff4800;
+    padding: 0.6rem;
+    border-radius: 1px;
+    border-color: #ff4800;
+    font-size: 21px;
+    color: white;
+    border: 1px solid transparent;
+}
+.nav-btn:hover , .search-btn:hover{
+    background-color: #bb4e01b4;
+    cursor: pointer;
+}
+.search-main{
+    display: flex;
+}
+.search-main .search-bar{
+    font-size: 1.5rem;
+    width: 33rem;
+    margin: 11vh 0;
+    padding: 3vh 4vh;
+    display: flex;
+}
+.search-btn{
+    margin: 72px 0px;
+    padding: 0 32px;
+}
+/* About us */
+.about-us{
+    display: flex;
+    margin: 48px;
+}
+.about-us-content-h4{
+    color: #ff4800;
+}
+.about-us-content-h1{
+    color: #1f1f2e;
+}
+.about-us-content-para{
+    color: #757575
+}
+.about-us-icon{
+    display: flex;
+}
+.about-us-img-bottom{
+    text-align: center;
+    font-size: 30px;
+    background-color: #ff4800;
+    color: #1f1f2e;
+    padding: 15px;
+}
+.about-us-img{
+    display: flex;
+    flex-direction: column;
+}
+.about-us-content{
+    margin: 31px;
+}
+.about-us-content-h1{
+    font-size: 35px;
+}
+.about-us-content-h{
+    margin: 15px;
+}
+.about-us-content-para{
+    font-size: 16px;
+    margin: 15px;
+}
+.about-us-icon{
+    margin: 33px 7px;
+}
+.about-us-icon{
+    position: relative;
+    display: block;
+    box-sizing: content-box;
+    border-radius: 50%;
+    border: none;
+    outline: 0!important;
+    padding: 18px 20px 18px 28px;
+    background-color: #ff4800;
+}
+.size{
+    font-size: 18px;
+}
+.about-us-content-h5{
+    display: flex;
+    align-items: center;
+    font-size: 23px;
+    margin-left: 5px;
+    color: #1f1f2e;
+}
+.about-us-button{
+    display: flex;
+}
+/* */
+.form{
+    display: flex;
+    align-items: center;
+}
+.data-div{
+    margin: 15px;
+    display: flex;
+}
+.data{
+    margin: 25px;
+    text-align: center;
+}
+.data-h1{
+    color:#ff4800;
+}
+.data-h6{
+    font-size: 15px;
+}
+form input{
+    font-size: 18px;
+    padding: 10px;
+    color:#757575;
+}
+.form-in{
+    margin: 12px;
+}
+.form-select{
+    height: 34px;
+    width: 100%;
+    font-size: 18px;
+    color:#757575;
+}
+.form-in-btn{
+    width: 100%;
+    background-color: #1f1f2e;
+    color: white;
+}
+.form-in-btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #1f1f2e;
+}
+.form form{
+    padding: 45px 54px;
+    background-color: #ff4800;
+    margin: 70px;
+} 
+/* */
+.services{
+    text-align: center;
+}
+.services-data{
+    display: flex;
+}
+.services-icon{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff4800;
+    color: white;
+    margin: 15px 25px;
+    padding: 12px;
+}
+.services i{
+    font-size: 40px;
+    color: black !important;
+}
+.services-btn input{
+    outline: none;
+    font-size: 18px;
+    margin: 15px;
+    width: 50%;
+    background: white;
+    border: 1px solid #ff4800;
+    padding: 8px;
+    color:#ff4800;
+}
+.services-btn input:hover{
+    color: #bb4e01b4;
+    cursor: pointer;
+}
+.services-p{
+    color:#757575;
+}
+.services-h4{
+    color: #ff4800;
+}
+.services-h{
+    margin: 40px 0;
+}
+
+/* */
+.about-us{
+    align-items: center;
+}
+.Learn-more-b{
+    font-size: 18px;
+    padding: 11px;
+    margin: 35px;
+    color: white;
+    border: 1px solid transparent;
+    background-color: #ff4800;
+}
+.Learn-more-b:hover{
+    background-color: #bb4e01b4;
+    cursor: pointer;
+}
+.ul i{
+    color: #ff4800;
+    margin-right: 12px;
+}
+/*  */
+.pricing-plan-h1-small{
+    vertical-align: top;
+    font-size: 18px;
+    color: #757575;
+}
+.pricing-plan-h1-small2{
+    vertical-align: bottom;
+    font-size: 18px;
+    color: #757575;
+}
+.pricing-plan{
+    text-align: center;
+}
+.pricing-plan-h1{
+    font-size: 36px;
+}
+.pricing-plan-h3-1{
+    background-color:#ff4800;
+    width: 100%;
+    padding: 14px 0;
+    margin: 18px 0;
+}
+.pricing-div{
+    display: flex;
+    justify-content: space-around;
+}
+.pricing-plan-p p{
+    color:#757575;
+    font-size: 20px;
+    margin-top: 7px;
+}
+.pricing-plan-btn input{
+    font-size: 22px;
+    background-color: #ff4800;
+    color: white;
+    padding: 17px;
+    border: 1px solid transparent;
+    margin: 20px;
+}
+.pricing-plan-btn input:hover{
+    background-color: #bb4e01b4;
+    cursor: pointer;
+}
+.pricing-h{
+    text-align: center;
+    margin: 50px 0;
+}
+.pricing-h4{
+    color:#ff4800;
+}
+/* */
+.images{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.images-div{
+    overflow: hidden;
+}
+.worker-destination{
+    color:#757575;
+}
+.worker-icon{
+    color: #1f1f2e;
+    background-color:#ff4800;
+}
+.worker-icon i{
+    font-size: 16px;
+    border-radius: 100%;
+    border: 1px solid #1f1f2e;
+    padding: 12px;
+    margin: 8px 6px;
+    /* display: none; */
+}
+.worker-icon i:hover{
+    background-color: #1f1f2e;
+    color: white;
+    cursor: pointer;
+}
